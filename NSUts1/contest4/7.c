@@ -32,7 +32,7 @@ int main(){
     lb = toLong(buffer1); 
     la = toLong(buffer2); 
     longNum result = {{0}};
-    int  shift = 0;
+    int shift = 0;
     for (int i = SIZE-1; i >= 0; i--){ 
         int next = 0;
         for (int j = SIZE-1; j >= 0; j--){
